@@ -10,7 +10,16 @@ scikit-learn = "*"
 tensorflow = "*"
 transformers = "*"
 python-dotenv = "*"
-openai = "==0.28.0"
+langchain = "*"
+streamlit = "*"
+requests = "*"
+torch = "*"
+einops = "*"
+bitsandbytes = "*"
+accelerate = "*"
+"pdfminer.six" = "*"
+bs4 = "*"
+chromadb = "*"
 
 [dev-packages]
 

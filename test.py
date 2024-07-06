@@ -4,6 +4,7 @@ API_URL = "https://api-inference.huggingface.co/models/gpt2"
 API_TOKEN = "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"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
+
 def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
     response.raise_for_status()  # Cette ligne lève une exception pour les erreurs HTTP
